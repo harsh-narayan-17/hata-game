@@ -7,7 +7,7 @@ export const events = {
     icon: '🍵',
     /** Fire this many ms after visiting the 1st building */
     delayMs: 8000,
-    afterVisits: 1,
+    afterVisits: 2,
   },
   tresLeches: {
     id: 'tres-leches',
@@ -17,7 +17,7 @@ export const events = {
     icon: '🍰',
     /** Fire this many ms after visiting the 3rd building */
     delayMs: 5000,
-    afterVisits: 3,
+    afterVisits: 4,
   },
 } as const
 

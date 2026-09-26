@@ -30,13 +30,13 @@ export const dialogue: Record<string, DialogueContent> = {
 export const cinemaContent = {
   title: 'NOW PLAYING',
   movie: 'The Little Prince',
-  lines: ['A little story.', 'A familiar feeling.'],
+  lines: ['To become spring, means accepting the risk of winter.'],
 }
 
 export const concertContent = {
   title: 'LIVE TONIGHT',
   artist: 'Seedhe Maut',
-  lines: ['Your favourite artist.', 'The lights, the crowd, the feeling.'],
+  lines: ['Your favourite artist is performing here hehe.'],
 }
 
 export const certificateContent = {
