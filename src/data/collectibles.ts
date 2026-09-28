@@ -11,8 +11,8 @@ export const collectibles: CollectibleDef[] = [
     name: 'Fridge Magnet',
     description: "Obviously you're keeping this.",
     icon: '🧲',
-    x: cinema.x - cinema.width / 2 - 28,
-    y: cinema.y + 10,
+    x: brown.x - brown.width / 2 - 200,
+    y: brown.y + brown.height / 2 + 24,
   },
   {
     id: 'fridge-magnet-2',
@@ -27,8 +27,9 @@ export const collectibles: CollectibleDef[] = [
     name: 'Fridge Magnet',
     description: 'Third time is the charm.',
     icon: '🧲',
-    x: brown.x - brown.width / 2 - 30,
-    y: brown.y + brown.height / 2 + 24,
+    x: cinema.x - cinema.width / 2 - 100,
+    y: cinema.y + 10,
+
   },
 ]
 

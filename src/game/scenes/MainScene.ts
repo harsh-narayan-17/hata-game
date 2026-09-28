@@ -146,7 +146,7 @@ export class MainScene extends Phaser.Scene {
 
     const cinema = LOCATIONS.find((l) => l.id === 'cinema')!
     this.add
-      .text(cinema.x, cinema.y - cinema.height / 2 - 18, 'NOW PLAYING · THE LITTLE PRINCE', {
+      .text(cinema.x, cinema.y - cinema.height / 2 - 18, '', {
         fontFamily: 'system-ui, sans-serif',
         fontSize: '10px',
         color: '#ffe566',

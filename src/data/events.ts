@@ -16,7 +16,7 @@ export const events = {
     item: 'TRES LECHES',
     icon: '🍰',
     /** Fire this many ms after visiting the 3rd building */
-    delayMs: 5000,
+    delayMs: 8000,
     afterVisits: 4,
   },
 } as const
